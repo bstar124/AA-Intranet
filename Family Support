@@ -1,0 +1,223 @@
+
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alternative Approach Intranet</title>
+  <style>
+    :root {
+      --aa-primary: #0B5ED7; /* replace with brand colours */
+      --aa-secondary: #6C757D;
+      --aa-bg: #F8F9FA;
+      --aa-card: #FFFFFF;
+      --aa-text: #212529;
+      --aa-accent: #198754;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: var(--aa-text);
+      background: var(--aa-bg);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--aa-primary);
+      color: #fff;
+      padding: 1.25rem 1.5rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.6rem;
+    }
+
+    header p {
+      margin: .25rem 0 0;
+      opacity: .9;
+    }
+
+    nav {
+      background: #fff;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    nav li a {
+      display: block;
+      padding: .75rem 1rem;
+      text-decoration: none;
+      color: var(--aa-text);
+      font-weight: 500;
+    }
+
+    nav li a:hover,
+    nav li a.active {
+      background: var(--aa-bg);
+      color: var(--aa-primary);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 1.5rem auto;
+      padding: 0 1rem 3rem;
+    }
+
+    .welcome {
+      background: var(--aa-card);
+      border-radius: 8px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    }
+
+    .welcome h2 { margin-top: 0; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--aa-card);
+      border-radius: 8px;
+      padding: 1.25rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card h3 { margin-top: 0; font-size: 1.1rem; }
+
+    .card p { flex: 1; }
+
+    .card a {
+      margin-top: .75rem;
+      align-self: flex-start;
+      text-decoration: none;
+      font-weight: 600;
+      color: var(--aa-primary);
+    }
+
+    .card a:hover { text-decoration: underline; }
+
+    footer {
+      border-top: 1px solid #dee2e6;
+      padding: 1rem;
+      text-align: centre;
+      font-size: .85rem;
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Alternative Approach Intranet</h1>
+  <p>Supporting our staff, services and communities</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="family-support.html">Family Support</a></li>
+    <li><a href="supported-accommodation.html">Supported Accommodation</a></li>
+    <li><a href="facilities.html">Facilities</a></li>
+    <li><a href="finance.html">Finance</a></li>
+    <li><a href="hr.html">HR</a></li>
+    <li><a href="training.html">Training</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <section class="welcome">
+    <h2>Family Support</h2>
+    <p>
+      This page provides information, guidance and resources for the Family Support service at Alternative Approach.
+      Use the sections below to quickly access tools, documents and key contacts relevant to your role.
+    </p>
+  </section>
+
+  <section>
+    <h2>Key Resources</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Policies & Procedures</h3>
+        <p>Family Support specific policies, safeguarding guidance and operational procedures.</p>
+        <a href="#">View policies</a>
+      </div>
+
+      <div class="card">
+        <h3>Forms & Templates</h3>
+        <p>Referral forms, consent forms, assessments and internal templates.</p>
+        <a href="#">Open forms</a>
+      </div>
+
+      <div class="card">
+        <h3>Systems & Tools</h3>
+        <p>Access systems used by Family Support, including ClearCare and internal trackers.</p>
+        <a href="#">Go to systems</a>
+      </div>
+
+      <div class="card">
+        <h3>Training & Guidance</h3>
+        <p>Mandatory training, practice guidance and helpful resources.</p>
+        <a href="#">View training</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section style="margin-top:1.5rem;">
+    <h2>Key Contacts</h2>
+    <div class="grid">
+
+
+      <div class="card">
+        <h3>Management Team</h3>
+        <p>Service managers and senior contacts for Family Support.</p>
+        <a href="#">View contacts</a>
+      </div>
+
+
+      <div class="card">
+        <h3>Safeguarding</h3>
+        <p>Safeguarding leads, escalation routes and reporting guidance.</p>
+        <a href="#">Safeguarding info</a>
+      </div>
+
+
+      <div class="card">
+        <h3>Admin & Referrals</h3>
+        <p>Referral processes, admin support and documentation queries.</p>
+        <a href="#">Contact admin</a>
+      </div>
+
+
+    </div>
+  </section>
+
+
+</main>
+
+<footer>
+  <p>© Alternative Approach | Internal use only</p>
+</footer>
+
+</body>
+</html>
