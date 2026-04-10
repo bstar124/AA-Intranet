@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Supported Accommodation | Alternative Approach Intranet</title>
+
+  <style>
+    :root {
+      --aa-primary: #0B5ED7;
+      --aa-secondary: #6C757D;
+      --aa-bg: #F8F9FA;
+      --aa-card: #FFFFFF;
+      --aa-text: #212529;
+      --aa-accent: #198754;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: var(--aa-bg);
+      color: var(--aa-text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--aa-primary);
+      color: #fff;
+      padding: 1.5rem;
+    }
+
+    header h1 { margin: 0; font-size: 1.6rem; }
+    header p { margin: .25rem 0 0; opacity: .9; }
+
+    nav {
+      background: #fff;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      display: block;
+      padding: .75rem 1rem;
+      text-decoration: none;
+      color: var(--aa-text);
+      font-weight: 500;
+    }
+
+    nav a:hover,
+    nav a.active {
+      background: var(--aa-bg);
+      color: var(--aa-primary);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 1.5rem auto;
+      padding: 0 1rem 3rem;
+    }
+
+    .welcome {
+      background: var(--aa-card);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    }
+
+    h2 { margin-top: 0; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--aa-card);
+      padding: 1.25rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card h3 { margin-top: 0; font-size: 1.1rem; }
+    .card p { flex: 1; }
+
+    .card a {
+      margin-top: .75rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: var(--aa-primary);
+    }
+
+    .card a:hover { text-decoration: underline; }
+
+    footer {
+      background: #fff;
+      border-top: 1px solid #dee2e6;
+      text-align: centre;
+      padding: 1rem;
+      font-size: .85rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Alternative Approach Intranet</h1>
+  <p>Supporting our staff, services and communities</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="family-support.html">Family Support</a></li>
+    <li><a class="active" href="supported-accommodation.html">Supported Accommodation</a></li>
+    <li><a href="facilities.html">Facilities</a></li>
+    <li><a href="finance.html">Finance</a></li>
+    <li><a href="hr.html">HR</a></li>
+    <li><a href="training.html">Training</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- Welcome -->
+  <section class="welcome">
+    <h2>Supported Accommodation</h2>
+    <p>
+      This page provides information, guidance and resources for staff working within
+      Supported Accommodation at Alternative Approach. Use the sections below to quickly
+      access key tools, documents and contacts.
+    </p>
+  </section>
+
+  <!-- Quick Actions -->
+  <section>
+    <h2>Quick Actions</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>New Referral</h3>
+        <p>Submit or review referrals for Supported Accommodation.</p>
+        <a href="#">Create referral</a>
+      </div>
+
+      <div class="card">
+        <h3>Incident / Safeguarding</h3>
+        <p>Report incidents, concerns or safeguarding issues.</p>
+        <a href="#">Report concern</a>
+      </div>
+
+      <div class="card">
+        <h3>On-Call & Out of Hours</h3>
+        <p>Find on-call contacts and escalation routes.</p>
+        <a href="#">View on-call</a>
+      </div>
+
+      <div class="card">
+        <h3>Maintenance Request</h3>
+        <p>Report repairs, damage or facilities issues.</p>
+        <a href="#">Log request</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Key Resources -->
+  <section>
+    <h2>Key Resources</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Policies & Procedures</h3>
+        <p>Supported Accommodation policies, house rules and guidance.</p>
+        <a href="#">View policies</a>
+      </div>
+
+      <div class="card">
+        <h3>Property Information</h3>
+        <p>Property files, H&amp;S documents and checklists.</p>
+        <a href="#">View properties</a>
+      </div>
+
+      <div class="card">
+        <h3>Systems & Tools</h3>
+        <p>Access ClearCare and internal systems.</p>
+        <a href="#">Go to systems</a>
+      </div>
+
+      <div class="card">
+        <h3>Training & Guidance</h3>
+        <p>Mandatory training and staff guidance.</p>
+        <a href="#">View training</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Key Contacts -->
+  <section style="margin-top:1.5rem;">
+    <h2>Key Contacts</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Management Team</h3>
+        <p>Service managers and senior contacts.</p>
+        <a href="#">View contacts</a>
+      </div>
+
+      <div class="card">
+        <h3>Safeguarding</h3>
+        <p>Safeguarding leads and escalation guidance.</p>
+        <a href="#">Safeguarding info</a>
+      </div>
+
+      <div class="card">
+        <h3>Facilities & Maintenance</h3>
+        <p>Facilities team and urgent repair contacts.</p>
+        <a href="#">Contact facilities</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© Alternative Approach | Internal use only</p>
+</footer>
+
+</body>
+</html>
