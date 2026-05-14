@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Finance | Alternative Approach Intranet</title>
+
+  <style>
+    :root {
+      --aa-primary: #0B5ED7;
+      --aa-secondary: #6C757D;
+      --aa-bg: #F8F9FA;
+      --aa-card: #FFFFFF;
+      --aa-text: #212529;
+      --aa-accent: #198754;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: var(--aa-bg);
+      color: var(--aa-text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--aa-primary);
+      color: #fff;
+      padding: 1.5rem;
+    }
+
+    header h1 { margin: 0; font-size: 1.6rem; }
+    header p { margin: .25rem 0 0; opacity: .9; }
+
+    nav {
+      background: #fff;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      display: block;
+      padding: .75rem 1rem;
+      text-decoration: none;
+      color: var(--aa-text);
+      font-weight: 500;
+    }
+
+    nav a:hover,
+    nav a.active {
+      background: var(--aa-bg);
+      color: var(--aa-primary);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 1.5rem auto;
+      padding: 0 1rem 3rem;
+    }
+
+    .welcome {
+      background: var(--aa-card);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    }
+
+    h2 { margin-top: 0; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--aa-card);
+      padding: 1.25rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.08);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card h3 { margin-top: 0; font-size: 1.1rem; }
+    .card p { flex: 1; }
+
+    .card a {
+      margin-top: .75rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: var(--aa-primary);
+    }
+
+    .card a:hover { text-decoration: underline; }
+
+    footer {
+      background: #fff;
+      border-top: 1px solid #dee2e6;
+      text-align: centre;
+      padding: 1rem;
+      font-size: .85rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Alternative Approach Intranet</h1>
+  <p>Supporting our staff, services and communities</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="family-support.html">Family Support</a></li>
+    <li><a href="supported-accommodation.html">Supported Accommodation</a></li>
+    <li><a href="facilities.html">Facilities</a></li>
+    <li><a class="active" href="finance.html">Finance</a></li>
+    <li><a href="hr.html">HR</a></li>
+    <li><a href="training.html">Training</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- Welcome -->
+  <section class="welcome">
+    <h2>Finance</h2>
+    <p>
+      This page provides employee-facing finance information, including pay,
+      expenses, mileage, and financial policies relevant to staff at
+      Alternative Approach.
+    </p>
+  </section>
+
+  <!-- Quick Actions -->
+  <section>
+    <h2>Quick Actions</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>View Payslips</h3>
+        <p>Access your payslips and pay-related documents.</p>
+        <a href="#">View payslips</a>
+      </div>
+
+      <div class="card">
+        <h3>Submit Expenses</h3>
+        <p>Claim approved expenses in line with policy.</p>
+        <a href="#">Submit expenses</a>
+      </div>
+
+      <div class="card">
+        <h3>Mileage Claims</h3>
+        <p>Submit mileage claims for work-related travel.</p>
+        <a href="#">Claim mileage</a>
+      </div>
+
+      <div class="card">
+        <h3>Finance Query</h3>
+        <p>Ask a question or raise a finance-related query.</p>
+        <a href="#">Contact finance</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Key Resources -->
+  <section>
+    <h2>Key Resources</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Expenses Policy</h3>
+        <p>Guidance on expenses, mileage and reimbursements.</p>
+        <a href="#">View policy</a>
+      </div>
+
+      <div class="card">
+        <h3>Pay & Payroll Information</h3>
+        <p>Pay dates, payroll processes and FAQs.</p>
+        <a href="#">Payroll info</a>
+      </div>
+
+      <div class="card">
+        <h3>Pension Information</h3>
+        <p>Workplace pension details and guidance.</p>
+        <a href="#">View pension info</a>
+      </div>
+
+      <div class="card">
+        <h3>Forms & Templates</h3>
+        <p>Expense forms and finance-related templates.</p>
+        <a href="#">View forms</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Key Contacts -->
+  <section style="margin-top:1.5rem;">
+    <h2>Key Contacts</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>Finance Team</h3>
+        <p>Contact the finance team for support.</p>
+        <a href="#">Finance contacts</a>
+      </div>
+
+      <div class="card">
+        <h3>Payroll Queries</h3>
+        <p>Support for pay and payslip questions.</p>
+        <a href="#">Payroll support</a>
+      </div>
+
+      <div class="card">
+        <h3>Expenses Support</h3>
+        <p>Help with expenses and mileage claims.</p>
+        <a href="#">Expenses help</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© Alternative Approach | Internal use only</p>
+</footer>
+
+</body>
+</html>
